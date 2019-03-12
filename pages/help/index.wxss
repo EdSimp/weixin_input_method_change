@@ -1,0 +1,30 @@
+.container {
+  padding: 30px;
+}
+
+
+.the-line {
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right,#27c4f5,#a307ba,#fd8d32,#70c050,#27c4f5)
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+.pzh{
+  font-family: "Arial";
+  text-align: center;
+}
+
+.pen{
+  font-family: "NSimSun";
+  text-align: center;
+}

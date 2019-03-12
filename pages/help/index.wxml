@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="the-line"></view>
+  <text class="text-center">Help</text>
+  <text class="pzh">本程序用于拼音转繁体注音</text>
+  <text class="pzh">在输入框中输入一个字的拼音 </text>
+  <text class="pzh">如查询<text style="color:#F00">"甄"</text>，则输入<text style="color:#F00">"zhen"</text></text>
+  <text class="pzh">点击<text style="color:#F00">"Search"</text>按钮</text>
+  <text class="pzh">则会出现注音输入法对应的字母</text>
+  <text>\n \n</text>
+  <text class="text-center">About</text>
+  <text class="pen">This program was inspired by my idol (Hebe Tien), and it is helpful for someone who wants to learn Taiwanese input method.</text>
+  <text>\n \n</text>
+  <text class="text-center">Contact</text>
+  <text class="pen" selectable="{{true}}">joyce_cchen@163.com</text>
+
+  <view class="text-right" style="margin-top: 30px;">
+
+  </view>
+
+  
+</view>

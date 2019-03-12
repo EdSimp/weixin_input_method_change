@@ -1,0 +1,85 @@
+/**index.wxss**/
+.section{
+  background-image: URL("http://wx4.sinaimg.cn/large/5085bb2bgy1fi7ugis9omj20zk0k03zy.jpg");
+  background-size:contain ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.section__title{
+  color: #123;
+  margin-left: 10px;
+}
+
+#tapTest{
+  margin: auto;
+  
+  width:100px;
+  font-size: 15px;
+  
+}
+
+.searchpy{
+  display: flex;
+  
+}
+
+.inputpy{
+  margin: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+  padding: 0px;
+  
+}
+.inputdata{
+  margin-top: 270px;
+  margin-right: 5px;
+  font-size: 20px;
+  padding: 0px;
+  
+}
+
+.zyshow{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+image.image_frame{
+  margin: 20px;
+  width:20px;
+  height:20px;
+}
+
+.helpicon {
+    clear: both;
+    display: block;
+    text-align: center;    
+    margin: 20px 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+}

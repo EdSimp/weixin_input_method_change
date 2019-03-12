@@ -1,0 +1,20 @@
+
+<view class="section">
+  <view class="searchpy">
+    <input class="inputpy" bindinput="bindKeyInput" placeholder="请输入拼音"/>
+  <!--<view  class="section__title">拼音输入为：{{inputValue}}</view>
+  -->
+    <button id="tapTest" data-hi="WeChat" bindtap="tapName"> Search</button>
+  </view>
+  <view class="zyshow">注音输入为：</view>
+  <image class="image_frame" src="{{imageUrlFirst}}" mode="aspectFill"> 
+  </image>
+  <image class="image_frame" src="{{imageUrlSecond}}" mode="aspectFill"> 
+  </image>
+  <image class="image_frame" src="{{imageUrlThird}}" mode="aspectFill"> 
+  </image>
+  <input class="inputdata" bindinput="bindDataInput" placeholder="请输入密码"/>
+    <button id="tapTest" data-hi="WeChat" bindtap="tapData"> Search</button>
+  <image class="helpicon" bindtap="help" src="/background/help.png" mode="widthFix">
+</image>
+</view>
